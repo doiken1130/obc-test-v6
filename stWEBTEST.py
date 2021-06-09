@@ -22,7 +22,7 @@ classes=['negative', 'positive']
 size=256
 
 # root_dir=os.getcwd()
-root_dir=/Users/doikentaro/Desktop/obc_web_v6
+root_dir="/Users/doikentaro/Desktop/obc_web_v6"
 posi_dir=root_dir+"//image_store//positive//"
 nega_dir=root_dir+"//image_store//negative//"
 tmp_dir=root_dir+"//tmp//" # root_dir//tmp//
