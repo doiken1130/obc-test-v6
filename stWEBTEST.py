@@ -23,16 +23,27 @@ size=256
 
 # root_dir=os.getcwd()
 root_dir="/Users/doikentaro/Desktop/obc_web_v6"
-posi_dir=root_dir+"//image_store//positive//"
-nega_dir=root_dir+"//image_store//negative//"
-tmp_dir=root_dir+"//tmp//" # root_dir//tmp//
-tmp_posi_dir=tmp_dir+"positive//" # root_dir//tmp//positive//
-tmp_nega_dir=tmp_dir+"negative//" # root_dir//tmp//negative//
-tec_name_dir=root_dir+"//tec_names.csv"
-result_dir=root_dir+"//result_examine.xlsx"
-prediction_dir=root_dir+"//prediction_result.xlsx"
-json_path = root_dir+"//result_examine.json" #
-model_path=root_dir+"//neural_network//outperform_model//vgg16_ft.h5"
+posi_dir=root_dir+"/image_store/positive/"
+nega_dir=root_dir+"/image_store/negative/"
+tmp_dir=root_dir+"/tmp/" # root_dir//tmp//
+tmp_posi_dir=tmp_dir+"positive/" # root_dir//tmp//positive//
+tmp_nega_dir=tmp_dir+"negative/" # root_dir//tmp//negative//
+tec_name_dir=root_dir+"/tec_names.csv"
+result_dir=root_dir+"/result_examine.xlsx"
+prediction_dir=root_dir+"/prediction_result.xlsx"
+json_path = root_dir+"/result_examine.json" #
+model_path=root_dir+"/neural_network/outperform_model/vgg16_ft.h5"
+
+# posi_dir=root_dir+"//image_store//positive//"
+# nega_dir=root_dir+"//image_store//negative//"
+# tmp_dir=root_dir+"//tmp//" # root_dir//tmp//
+# tmp_posi_dir=tmp_dir+"positive//" # root_dir//tmp//positive//
+# tmp_nega_dir=tmp_dir+"negative//" # root_dir//tmp//negative//
+# tec_name_dir=root_dir+"//tec_names.csv"
+# result_dir=root_dir+"//result_examine.xlsx"
+# prediction_dir=root_dir+"//prediction_result.xlsx"
+# json_path = root_dir+"//result_examine.json" #
+# model_path=root_dir+"//neural_network//outperform_model//vgg16_ft.h5"
 
 path_list=[posi_dir, nega_dir, tmp_dir, tmp_posi_dir, tmp_nega_dir]
 storing_path=[tmp_posi_dir, tmp_nega_dir]
